@@ -84,7 +84,7 @@ namespace GetVersionFromGit
                 return e.ToString();
             }
 
-            return string.Format( "{0}.{1}.{2}.{3}", dt.ToString( "yyMM" ), dt.ToString( "ddHH" ), v1.ToString().PadLeft(5,'0'), v2.ToString().PadLeft( 5, '0' ) );
+            return string.Format( "{0}.{1}.{2}.{3}", dt.ToString( "yyMM" ), dt.ToString( "ddHH" ), v1, v2 );
 
         }
 
